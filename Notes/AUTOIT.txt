@@ -1,0 +1,8 @@
+WinWaitActive("Open")
+Sleep(3000)
+ControlFocus("Open","","Edit1")
+Sleep(3000)
+Send("C:\Users\QSP\Downloads\Bio1.docx")
+Sleep(3000)
+ControlClick("Open","&Open","Button1")
+
