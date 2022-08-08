@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
+<parameter name="url" value="https://www.facebook.com/"/>
+<parameter name="username" value="admin"/>
+<parameter name="password"  value="manager"/>
+
+<test thread-count="5" name="Test">
     <classes>
-      <class name="debugging.Test3"/>
+      <class name="dataDriven.Test0"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
