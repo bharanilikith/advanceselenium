@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomer]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-08-08T09:19:48 IST" name="Default suite" finished-at="2022-08-08T09:19:57 IST" duration-ms="9217">
+  <suite started-at="2022-08-09T09:22:10 IST" name="Suite" finished-at="2022-08-09T09:22:11 IST" duration-ms="118">
     <groups>
+      <group name="deleteCustomer">
+        <method signature="Demo.deleteCustomer()[pri:0, instance:testNG.Demo@2abf4075]" name="deleteCustomer" class="testNG.Demo"/>
+      </group> <!-- deleteCustomer -->
     </groups>
-    <test started-at="2022-08-08T09:19:48 IST" name="Default test" finished-at="2022-08-08T09:19:57 IST" duration-ms="9217">
-      <class name="dataDriven.Test2">
-        <test-method signature="tc2()[pri:0, instance:dataDriven.Test2@5939a379]" started-at="2022-08-08T09:19:48 IST" name="tc2" finished-at="2022-08-08T09:19:57 IST" duration-ms="9111" status="PASS">
+    <test started-at="2022-08-09T09:22:10 IST" name="Test" finished-at="2022-08-09T09:22:11 IST" duration-ms="118">
+      <class name="testNG.Demo">
+        <test-method is-config="true" signature="login()[pri:0, instance:testNG.Demo@2abf4075]" started-at="2022-08-09T09:22:11 IST" name="login" finished-at="2022-08-09T09:22:11 IST" duration-ms="16" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- tc2 -->
-      </class> <!-- dataDriven.Test2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- login -->
+        <test-method signature="deleteCustomer()[pri:0, instance:testNG.Demo@2abf4075]" started-at="2022-08-09T09:22:11 IST" name="deleteCustomer" finished-at="2022-08-09T09:22:11 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testNG.Demo@2abf4075]" started-at="2022-08-09T09:22:11 IST" name="logout" finished-at="2022-08-09T09:22:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testNG.Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
